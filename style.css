@@ -1,0 +1,74 @@
+/*comentarios/
+/*Selector de html*/
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    
+}
+
+h1{
+    font-family: 'Amatic SC', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightskyblue; /*Color del fondo del texto*/
+    width: 800px;
+    padding: 10px; /*Espacio interno*/
+    border: 2px solid rgb(90, 237, 202); /*Borde o tope*/
+    margin: 20px; /*Espacio externo*/
+    font-size: 45px;
+}
+
+body{
+    background-color:lightpink;
+}
+
+h3{
+color:purple;
+}
+
+nav{
+    text-align: center
+}
+
+p{
+    font-weight: bold; /*Negritas*/
+    text-transform:  uppercase; /*MAYUSCULAS*/
+    text-align: center;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+/*Selectores de tipo clase, reutilizacion*/
+img{
+    width: 50%;  /*Unidades relativas*/
+    /*500px Unidades estáticas*/
+    border-radius: 80% ; /*bordes redondeados*/
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tarjeta{
+    background-color:rgb(27, 198, 178);
+    border: 1px solid greenyellow; /*bordes*/
+    margin: 15px;
+    padding: 15px; /*Espacio interno*/
+}
+
+/*Selector de tipo ID, identificador unico
+Este selector se agrega directamente en la 
+sección del titulo*/
+
+#titulo-quien{color:rgb(230, 242, 239);}
+
+#titulo-genero{color:rgb(169, 80, 191);}
+
+#titulo-trayectoria{color:rgb(210, 71, 71);}
+
+#titulo-favorito{color:rgb(195, 22, 195);}
+
+#titulo-suscribete{color:rgb(0, 88, 35);}
